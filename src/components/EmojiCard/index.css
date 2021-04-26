@@ -1,0 +1,22 @@
+.emoji-card {
+  border-radius: 10px;
+  border: 2px solid #ffffff30;
+  padding: 10px;
+  width: 20%;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .emoji-card {
+    width: 40%;
+    height: 100%;
+  }
+  .emoji-image {
+    width: 80%;
+  }
+}

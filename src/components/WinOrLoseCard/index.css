@@ -1,0 +1,56 @@
+.lost-container {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  border: 2px solid #ffffff33;
+  border-radius: 10px;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  margin-top: 15px;
+  color: #ffffff;
+  max-width: 80vw;
+}
+
+.result,
+.score {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.score {
+  font-size: 30px;
+}
+
+.value {
+  color: #6a59ff;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.button {
+  color: #3d3d3d;
+  background-color: #ffce27;
+  border: 0;
+  border-radius: 10px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .image {
+    width: 80%;
+  }
+  .result,
+  .score,
+  .value {
+    font-size: 30px;
+  }
+  .button {
+    padding: 8px;
+  }
+  .image-container {
+    text-align: right;
+  }
+}
